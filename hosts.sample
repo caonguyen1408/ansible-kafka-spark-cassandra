@@ -1,0 +1,8 @@
+[local]
+localhost
+
+[mariadb]
+
+[mongodb]
+
+[webserver]

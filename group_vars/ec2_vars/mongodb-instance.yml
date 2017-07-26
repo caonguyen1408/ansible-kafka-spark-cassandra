@@ -1,0 +1,13 @@
+hosts_tag: "mongodb"
+ec2_provision_tier: "MongoDB Database Tier"
+ec2_keypair: "Ansible-Lab"
+ec2_security_group: "sg-4b940933"
+ec2_instance_type: "t2.micro"
+ec2_image: "ami-eed95e8e"
+ec2_subnet_ids: ['subnet-88ddfced','subnet-88ddfced','subnet-88ddfced']
+ec2_region: "us-west-2"
+ec2_tag_Name: "Inspec-MongoDB-AnalyticsUI"
+ec2_tag_Type: "MongoDB"
+ec2_tag_Environment: "production"
+ec2_volume_size: 16
+ec2_instance_numbers: 1

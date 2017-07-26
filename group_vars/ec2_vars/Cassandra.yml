@@ -1,0 +1,13 @@
+hosts_tag: "mariadb"
+ec2_provision_tier: "MariaDB Database Tier"
+ec2_keypair: "Ansible-Lab"
+ec2_security_group: "sg-4b940933"
+ec2_instance_type: "t2.micro"
+ec2_image: "ami-b0d85fd0"
+ec2_subnet_ids: ['subnet-88ddfced','subnet-88ddfced','subnet-88ddfced']
+ec2_region: "us-west-2"
+ec2_tag_Name: "Inspec-MariaDB-AnalyticUI"
+ec2_tag_Type: "MariaDB"
+ec2_tag_Environment: "production"
+ec2_volume_size: 16
+ec2_instance_numbers: 1

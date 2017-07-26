@@ -1,0 +1,13 @@
+hosts_tag: "webserver-frontend"
+ec2_provision_tier: "Webserver Frontend Tier"
+ec2_keypair: "Ansible-Lab"
+ec2_security_group: "sg-4b940933"
+ec2_instance_type: "t2.micro"
+ec2_image: "ami-b2b334d2"
+ec2_subnet_ids: ['subnet-88ddfced','subnet-88ddfced','subnet-88ddfced']
+ec2_region: "us-west-2"
+ec2_tag_Name: "Inspec-Webserver-html-dashboard"
+ec2_tag_Type: "webserver"
+ec2_tag_Environment: "production"
+ec2_volume_size: 16
+ec2_instance_numbers: 1
